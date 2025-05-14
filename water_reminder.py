@@ -36,9 +36,9 @@ def main():
         interval = suggest_reminder_interval(age)
         temp = recommend_water_temperature(age)
 
-        print(f"\n✅ Recommended Water Intake: {intake} liters/day")
-        print(f"🔔 Reminder every {interval} hours")
-        print(f"💧 Ideal Water Temperature: {temp}")
+        print(f"\n Recommended Water Intake: {intake} liters/day")
+        print(f" Reminder every {interval} hours")
+        print(f" Ideal Water Temperature: {temp}")
 
 if __name__ == "__main__":
     main()
